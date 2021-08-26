@@ -1,7 +1,23 @@
 *{
     box-sizing:border-box;
 }
+#content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+img{
+    width: 100vw;
+    position:fixed;
+    top:0px;
+    z-index:-1;;
+}
 .main{
-    width: 50vw;
-   margin-left: 341px;
+    width: 50vw;   
+}
+.navbar{
+    position:sticky;
+    top:0px;
+
 }
